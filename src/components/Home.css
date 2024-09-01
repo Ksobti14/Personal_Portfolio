@@ -1,0 +1,117 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+  .home-content {
+    background-image: url('../images/body.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .text-content {
+    margin-right: 50px; 
+    text-align: left;
+  }
+  
+  .profile-img {
+    height: 500px;
+    border-radius: 50%; 
+    margin-left: 50px; 
+  }
+  .text-content h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Lora', serif; 
+    color:#3498db; 
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+  }
+  
+  .text-content h4 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif; 
+    color:#2ecc71; 
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  .resume {
+    border: 2px solid #007bff; 
+    border-radius: 10px;
+    position: relative; 
+    text-decoration: none;
+    padding: 12px 24px;
+    color: #ffffff; 
+    background-color: #007bff; 
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: inline-block;
+  }
+  
+  .resume:hover {
+    background-color: #0056b3; 
+    color: #ffffff; 
+    border-color: #0056b3; 
+  }
+  
+  .resume:active {
+    background-color: #003d80; 
+    border-color: #003d80;
+  }
+  .linkedin {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding:2px ;
+    background-color: blanchedalmond;
+  }
+  .github{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding:2px ;
+    background-color: blanchedalmond;
+  
+  }
+  .twitter{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding:2px ;
+    background-color: blanchedalmond;
+  }
+.leetcode{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding:2px ;
+    background-color: blanchedalmond;
+}
+.about-me-btn {
+    background-color: #0077b5; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .about-me-btn:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05);
+  }
+  
